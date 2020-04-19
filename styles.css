@@ -1,0 +1,72 @@
+/*colors and stuff*/
+.item1 {
+  background: LightSkyBlue;
+}
+.item3 {
+  background: PaleTurquoise;
+}
+.item4 {
+  background: LightPink;
+}
+.output {
+  background: lightsteelblue;
+}
+.item6 {
+  background: lightyellow;
+}
+.item7 {
+  background: lightgreen;
+}
+.item8 {
+  background: lightpink;
+}
+.item9 {
+  background: lightskyblue;
+}
+/* grid setup */
+.container {
+  font-size: 30px;
+  min-height: 300px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+/* grid arranging */
+.output {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+.division,
+.multi,
+.addition,
+.subtract,
+.enter {
+  grid-column: 4 / 5;
+  background: lightgoldenrodyellow;
+}
+.clear,
+.percent,
+.idk {
+  grid-row: 2 / 3;
+}
+.item1,
+.item2,
+.item3 {
+  grid-row: 3 / 4;
+}
+.item4,
+.item5,
+.item6 {
+  grid-row: 4 / 5;
+}
+.item7,
+.item8,
+.item9 {
+  grid-row: 5 / 6;
+}
+.item0,
+.negative,
+.enter {
+  grid-row: 6 / 7;
+}
